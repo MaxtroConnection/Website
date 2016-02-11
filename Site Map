@@ -1,7 +1,12 @@
 This is the site map for the website:
 
-Home
-
-  News Feed
-  About
-  Forgot Password
+Home (Login)
+  -> Sign Up
+  -> About
+  -> Terms
+  -> Privacy
+  -> Forgot Password
+  
+Feed (Successor to Home)
+  -> Profile
+    -> Edit
