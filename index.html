@@ -3,15 +3,8 @@
 
 	<head>
 		<title>Maxtro Connection</title>
-		<link rel="stylesheet" type="text/css" href="styles/main.css">
-		<script>
-			function colorChange(obj){
-				obj.style.borderColor = '#cccccc';
-			};
-			function colorReset(obj){
-				obj.style.borderColor = '#000000';
-			};
-		</script>
+		<link rel="stylesheet" type="text/css" href="resources/main.css">
+		<script src="resources/main.js"></script>
 	<head>
 	
 	<body>
@@ -19,9 +12,10 @@
 			<img src="images/maxtro-connection-logo.png" alt="Maxtro Connection">
 			<form action="" method="post">
 				<div class="main-form">
-					<input type="text" placeholder="Username" class="main-form-user stnd-form-font" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="1">
-					<input type="password" placeholder="Password" class="main-form-pass align stnd-form-font" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="2">
+					<input type="text" placeholder="Username" class="main-form-standard-input main-form-font" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="1">
+					<input type="password" placeholder="Password" class="main-form-pass align main-form-font" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="2">
 					<input type="submit" value="Sign In" class="main-form-sub align" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="3">
+					<!--<p class="help-text help-password"></p>-->
 				</div>
 			</form>
 			<div class="main-footer">
