@@ -1,0 +1,31 @@
+<html lang="en">
+
+	<head>
+		<title>Maxtro Connection</title>
+		<link rel="stylesheet" type="text/css" href="resources/main.css">
+		<script src="resources/main.js"></script>
+	<head>
+	
+	<body>
+		<div class="main">
+			<img src="images/maxtro-connection-logo.png" alt="Maxtro Connection">
+			<form action="" method="post">
+				<div class="main-form">
+					<input type="text" name="first-name" placeholder="First Name" class="main-form-standard-input main-form-font" onfocus="colorChange(this)" onblur="colorReset(this);inputCheck(this, 'fn');" tabindex="1">
+					<p class="help-text" id="first-name"></p>
+					<input type="text" name="username" placeholder="Username" class="main-form-standard-input main-form-font" onfocus="colorChange(this)" onblur="colorReset(this);inputCheck(this, 'usr');" tabindex="2">
+					<p class="help-text" id="username"></p>
+					<input type="text" name="email" placeholder="Email" class="main-form-standard-input main-form-font" onfocus="colorChange(this)" onblur="colorReset(this);inputCheck(this, 'em');" tabindex="3">
+					<p class="help-text" id="email"></p>
+					<input type="password" name="password" placeholder="Password" class="main-form-pass align main-form-font" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="4">
+					<input type="submit" value="Sign Up" class="main-form-sub align" onfocus="colorChange(this)" onblur="colorReset(this)" tabindex="5">
+					<!--<p class="help-text help-password"></p>-->
+				</div>
+			</form>
+			<div class="main-footer">
+				<a href="/">Sign Up</a> | <a href="/">About</a> | <a href="/">Terms</a> | <a href="/">Privacy</a>
+			</div>
+		</div>
+	</body>
+	
+</html>
