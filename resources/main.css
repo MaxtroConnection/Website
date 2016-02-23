@@ -1,1 +1,99 @@
+/* Maxtro Connection main.css */
+/* NOTE: CSS elements have been seperated by formatting and style
+e.g. 
 
+width:100%;
+padding:10px;
+
+color:red;
+
+e.t.c */
+
+body{
+	margin:0em;
+	padding:0em;
+	background-image: url("../images/wp.jpg");
+}
+.main{
+	width:50%;
+	margin:0 auto;
+	position:absolute;
+	top:25%;
+	left:25%;
+}
+.main img{
+	display:block;
+	margin:0 auto;
+}
+
+/* Form Styling */
+/* I am a bit skeptical on how these styling propertise 
+will hold up on more exotic browsers */
+.main-form{
+	width:23.5em;
+	margin:0 auto;
+	margin-top:0.93em;
+	padding:0.45em;
+	
+	background-color:#ffffff;
+	border:0.18em solid #000000;
+}
+.main-form input{
+	padding:0.6em;
+	padding-left:0.4em;
+	
+	border:0.18em solid #000000;
+}
+.main-form input:focus{
+	outline:none;
+}
+.main-form-font{
+	font-size:1em;
+}
+.main-form-standard-input{
+	width:95%;
+	display:block;
+	margin:0 auto;
+	margin-bottom:0.5em;
+}
+.main-form-pass{
+	width:63%;
+}
+.main-form-sub{
+	width:30%;
+	
+	background-color:#ffffff;
+	cursor:pointer;
+	font-size:1em;
+}
+.align{
+	display:inline;
+}
+.help-text{
+	margin:0em;
+	margin-bottom:0.5em;
+	
+	font-family:Arial;
+	font-size:0.9em;
+	color:#FF0000;
+}
+.help-password{
+	margin-top:0.5em;
+	margin-bottom:0em;
+}
+
+/* Footer Styling */
+.main-footer{
+	width:23.5em;
+	display:block;
+	margin:0 auto;
+	margin-top:0.6em;
+	
+	text-align:center;
+}
+.main-footer a{
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Arial;
+	font-weight:bold;
+}
